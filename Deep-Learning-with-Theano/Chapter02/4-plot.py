@@ -4,7 +4,7 @@ import numpy
 curves = {}
 curves[0] = { 'data' : numpy.load("simple_valid_loss.npy"), 'name' : "simple"}
 curves[1] = { 'data' : numpy.load("mlp_valid_loss.npy"), 'name' : "mlp"}
-curves[2] = { 'data' : numpy.load("conv_valid_loss.npy"), 'name' : "cnn"}
+curves[2] = { 'data' : numpy.load("cnn_valid_loss.npy"), 'name' : "cnn"}
 
 line_style=['-', '--', '^'] 
 # scale = 15
